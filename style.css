@@ -1,0 +1,54 @@
+#back{
+    background-color: #1d1d1d ;
+    background-size:cover;
+    height: 305vh;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/images.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+#about{
+    height:100vh;
+    background: url('images/images.jpeg');
+    background-size:cover;
+    position:relative;
+    color: white;
+}
+
+
+
+
+#a > img {
+    border-radius: 50%;
+    height: 300px;
+    margin-top: 50px;
+  }
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* .col-lg-8{
+    font-size:30px;
+} */
+
