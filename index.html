@@ -1,89 +1,86 @@
+
+
+
+
+
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <title>Portfolio Website-Bharat</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
 </head>
 
 <body>
-<div id="back">
-
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#" style="color: aliceblue;">Bharat</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" style="color: aliceblue;" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: aliceblue;" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"style="color: aliceblue;" href="#services">Skill</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: aliceblue;" href="#portfolio">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: aliceblue;" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#project" class="menu-btn">Projects</a></li>
+                <li><a href="#tech" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
     </nav>
 
 
-
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                
-                <h2 class="hero_title">Hi, it's me Bharat</h2>
-                <p class="hero_desc">I am a Full Stack Web Developer</p>
-            </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/WhatsApp Image 2022-10-10 at 8.27.38 PM.jpeg" class= "imageAboutPage" alt="">
+        <!-- home section start -->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hello, my name is</div>
+                    <div class="text-2">Bharat Haldandi</div>
+                    <div class="text-3">And I'm a <span class="typing"></span></div>
+                    <a href="#">Hire me</a>
                 </div>
+            </div>
+        </section>
 
-                <div class="col-lg-5 mt-5">
+    <!-- <div class="content">
+        <span class="title">I am a Full Stack Web Developer.</span>
+        <h1>Hello, I’m <span>Bharat</span></h1>
+        <p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional React Template Imroz.</p>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+</div>  -->
+
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/WhatsApp Image 2022-10-10 at 8.27.38 PM.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Bharat and I'm a <span class="typing-2"></span></div>
                     <p>
-                        <h4>A passionate and motivated Full Stack Web Developer, Contributes to team success through hard work and excellent organizational skills. A clear understanding of Websites and training in the Backend and Frontend. Looking for a challenging role in industry to utilize my skills and learn.</h4>
-                    </p>
+                        A passionate and motivated Full Stack Web Developer, Contributes to team success through hard work and excellent organizational skills. A clear understanding of Websites and training in the Backend and Frontend. Looking for a challenging role in industry to utilize my skills and learn.</p>
+                    <a href="Bharat_Haldandi_Resume.zip">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
-</div>
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
+
+<script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>
