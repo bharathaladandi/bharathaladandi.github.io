@@ -128,7 +128,7 @@ section .title::after{
     color: black;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: black;
 }
 
 /* menu btn styling */
