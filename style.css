@@ -128,7 +128,7 @@ section .title::after{
     color: black;
 }
 .navbar.sticky .menu li a:hover{
-    color: black;
+    color: black
 }
 
 /* menu btn styling */
@@ -170,7 +170,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/dark-black-background-circle-light-260nw-1711988728.webp") no-repeat center;
+    background: url("images/images\ \(1\).png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -187,13 +187,14 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
-    color: rgb(37, 178, 131);
+    color: white;
+    margin-left: 200px;
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
-    margin-left: -3px;
-    color:  rgb(37, 178, 131)
+    margin-left: 200px;
+    color:  white;
 }
 .home .home-content .text-3{
     font-size: 40px;
