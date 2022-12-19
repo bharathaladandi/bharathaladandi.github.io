@@ -88,11 +88,12 @@ section .title::after{
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(37, 178, 131);
     transition: all 0.3s ease;
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgb(37, 178, 131);
 }
 .navbar .max-width{
     display: flex;
@@ -100,12 +101,12 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: rgb(17, 75, 99);
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    /* color: crimson; */
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -124,7 +125,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: black;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -169,7 +170,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/dark-black-background-circle-light-260nw-1711988728.webp") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -186,11 +187,13 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
+    color: rgb(37, 178, 131);
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    color:  rgb(37, 178, 131)
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -230,17 +233,17 @@ section .title::after{
 }
 
 /* about section styling */
-.about .title::after{
+/* .about .title::after{
     content: "who i am";
-}
+} */
 .about .about-content .left{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50%;
 }
 .about .about-content .right{
     width: 55%;
@@ -275,12 +278,12 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
-    background: #111;
+    color:black;
+    /* background: #111; */
 }
 .services .title::before,
 .teams .title::before{
-    background: #fff;
+    background: black
 }
 .services .title::after,
 .teams .title::after{
@@ -296,7 +299,7 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+/* .services .serv-content .card:hover{
     background: crimson;
     color: #555;
 }
@@ -313,7 +316,7 @@ section .title::after{
 }
 .services .serv-content .card:hover i{
     color: #fff;
-}
+} */
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
@@ -335,7 +338,7 @@ section .title::after{
   }
 
 .skills .title::after{
-    content: "what i know";
+    /* content: "what i know"; */
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -412,7 +415,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "See my work";
+    /* content: "See my work"; */
 }
 .teams .carousel .card{
     background: rgba(60, 223, 226, 0.459);
@@ -422,10 +425,10 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
-    background: crimson;
+/* .teams .carousel .card:hover{
+    background: rgba(60, 223, 226, 0.459);
     
-}
+} */
 .teams .carousel .card .box{
     display: flex;
     flex-direction: column;
@@ -433,9 +436,9 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+/* .teams .carousel .card:hover .box{
     transform: scale(1.05);
-}
+} */
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
@@ -461,6 +464,7 @@ section .title::after{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* color: #000; */
   }
   .techStack {
     color: purple;
@@ -472,7 +476,7 @@ section .title::after{
   .demo-div a:link,
   .techStack {
     text-decoration: none;
-    color: white;
+    color: black;
   }
 .teams .carousel .card img{
     height: 250px;
@@ -482,10 +486,10 @@ section .title::after{
     border: 5px solid rgba(60, 223, 226, 0.459);
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
-    border-color: #fff;
-    color: white;
-}
+/* .teams .carousel .card:hover img{ */
+    /* border-color: #fff; */
+    /* color: black;
+} */
 .owl-dots{
     text-align: center;
     margin-top: 20px;
@@ -516,7 +520,7 @@ section .title::after{
   
 /* contact section styling */
 .contact .title::after{
-    content: "Get in touch";
+    /* content: "Get in touch"; */
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -542,7 +546,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(37, 178, 131);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
